@@ -2,5 +2,6 @@
 $.scrollify({
     section: "section",
     scrollSpeed: 700,
-    sectionName : false
+    sectionName: false,
+    touchScroll: false
 });
