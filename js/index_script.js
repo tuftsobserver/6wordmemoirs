@@ -1,7 +1,7 @@
 // zippy scroll to each section
-$.scrollify({
-    section: "section",
-    scrollSpeed: 700,
-    sectionName: false,
-    // touchScroll: false
-});
+// $.scrollify({
+//     section: "section",
+//     scrollSpeed: 700,
+//     sectionName: false,
+//     touchScroll: false
+// });
