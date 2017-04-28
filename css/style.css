@@ -5,47 +5,45 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+p {
+  font-size: 6vmin;
+  margin: 0;
+  padding: 10px;
+
   font-family: "Lobster", cursive;
-  font-size: 20px;
+  font-weight: normal;
   text-align: center;
   color: black;
+
+  /* centers vertically */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
-a {
-  color: inherit;
-  text-decoration: underline;
+h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 9vmin;
+  font-weight: bold;
 }
 
+a,
 a:hover {
   color: inherit;
   text-decoration: underline;
 }
 
-h1, h2, p {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 6vh;
+img {
+  height: 1em;
 }
 
-h1 {
-  font-family: "Bungee Shade", cursive;
-  font-size: 9vh;
-}
-
-
-.text > div {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
-  height: calc(100vh/3);
-  position: relative;
-  z-index: 2;
-}
-
-.text {
+.wrapper {
   background-attachment: fixed;
   background-position: center;
 
