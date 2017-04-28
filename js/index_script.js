@@ -3,5 +3,5 @@ $.scrollify({
     section: "section",
     scrollSpeed: 700,
     sectionName: false,
-    touchScroll: false
+    // touchScroll: false
 });
